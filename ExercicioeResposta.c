@@ -8,59 +8,59 @@ int main()
 	setlocale(LC_ALL, "Portuguese");
 	//Perguntas
 	char *pergunta[5][5];
-	char pergunta1[] = "1) FaÁa um programa C para ler dois valores e imprimir a soma dos mesmos.";
-	char pergunta2[] = "2) FaÁa um programa C para ler dois valores e imprimir a multiplicaÁ„o dos mesmos.";
-	char pergunta3[] = "3) FaÁa um programa C para ler trÍs valores e imprimir a soma dos mesmos.";
-	char pergunta4[] = "4) FaÁa um programa C para ler um valor em quilogramas (Kg) e imprimir o equivalente em gramas (g).";
-	char pergunta5[] = "5) FaÁa um programa C para ler um valor e imprimir o quadrado deste n˙mero.";
-	char pergunta6[] = "1) FaÁa um programa C para entrar com uma dist‚ncia (Km), o tempo de viagem(Horas) e dizer se a velocidade mÈdia foi superior ao limite (80 Km/h) ou n„o.";
-	char pergunta7[] = "2) FaÁa um programa C para ler a temperatura de uma pessoa e exibir a mensagem EST¡ COM FEBRE ou EST¡ NORMAL. Considere o valor base como 36.5.";
-	char pergunta8[] = "3) FaÁa um programa C para entrar com um n˙mero e dizer se o mesmo È par ou Ìmpar.";
-	char pergunta9[] = "4) FaÁa um programa C para ler o ano de nascimento de uma pessoa e escrever uma mensagem que diga se ela poder· ou n„o votar este ano (n„o È necess·rio considerar o mÍs em que ela nasceu).";
-	char pergunta10[] = "5) FaÁa um programa C para ler dois valores e imprimir ìEM ORDEMî caso o primeiro seja menor que o segundo e ìFORA DE ORDEMî no caso contr·rio.\n";
-	char pergunta11[] = "1) FaÁa um programa C que dados trÍs valores X, Y, Z, verifique se eles podem ser os comprimentos dos lados de um\n"
-	                        "tri‚ngulo; se forem, escrever uma mensagem informando se È um tri‚ngulo equil·tero, isÛsceles ou escaleno.\n"
-                            "Dicas: O comprimento de um lado do tri‚ngulo È sempre menor do que a soma dos outros dois.\n"
-                            "Eq¸il·tero: Todos lados iguais\n"
-                            "IsÛsceles: Dois lados iguais\n"
+	char pergunta1[] = "1) Fa√ßa um programa C para ler dois valores e imprimir a soma dos mesmos.";
+	char pergunta2[] = "2) Fa√ßa um programa C para ler dois valores e imprimir a multiplica√ß√£o dos mesmos.";
+	char pergunta3[] = "3) Fa√ßa um programa C para ler tr√™s valores e imprimir a soma dos mesmos.";
+	char pergunta4[] = "4) Fa√ßa um programa C para ler um valor em quilogramas (Kg) e imprimir o equivalente em gramas (g).";
+	char pergunta5[] = "5) Fa√ßa um programa C para ler um valor e imprimir o quadrado deste n√∫mero.";
+	char pergunta6[] = "1) Fa√ßa um programa C para entrar com uma dist√¢ncia (Km), o tempo de viagem(Horas) e dizer se a velocidade m√©dia foi superior ao limite (80 Km/h) ou n√£o.";
+	char pergunta7[] = "2) Fa√ßa um programa C para ler a temperatura de uma pessoa e exibir a mensagem EST√Å COM FEBRE ou EST√Å NORMAL. Considere o valor base como 36.5.";
+	char pergunta8[] = "3) Fa√ßa um programa C para entrar com um n√∫mero e dizer se o mesmo √© par ou √≠mpar.";
+	char pergunta9[] = "4) Fa√ßa um programa C para ler o ano de nascimento de uma pessoa e escrever uma mensagem que diga se ela poder√° ou n√£o votar este ano (n√£o √© necess√°rio considerar o m√™s em que ela nasceu).";
+	char pergunta10[] = "5) Fa√ßa um programa C para ler dois valores e imprimir ‚ÄúEM ORDEM‚Äù caso o primeiro seja menor que o segundo e ‚ÄúFORA DE ORDEM‚Äù no caso contr√°rio.\n";
+	char pergunta11[] = "1) Fa√ßa um programa C que dados tr√™s valores X, Y, Z, verifique se eles podem ser os comprimentos dos lados de um\n"
+	                        "tri√¢ngulo; se forem, escrever uma mensagem informando se √© um tri√¢ngulo equil√°tero, is√≥sceles ou escaleno.\n"
+                            "Dicas: O comprimento de um lado do tri√¢ngulo √© sempre menor do que a soma dos outros dois.\n"
+                            "Eq√ºil√°tero: Todos lados iguais\n"
+                            "Is√≥sceles: Dois lados iguais\n"
                             "Escaleno: Todos os lados diferentes\n";
-	char pergunta12[] = "2) Uma empresa vai pagar um bÙnus de fim-de-ano aos seus funcion·rios. FaÁa um programa C\n"
-                             "para ler o sal·rio de um funcion·rio (em reais) e seu tempo de trabalho na empresa (em anos), e\n"
-                             "depois imprimir este sal·rio com um bÙnus, de acordo com os critÈrios abaixo:\n"
-                             "Para sal·rios atÈ R$500,00 inclusive - bÙnus de 15%\n"
-                             "Para sal·rios entre R$500,00 e R$1000,00 inclusive - bÙnus de 12%\n"
-                             "Para sal·rios acima de R$1000,00 - bÙnus de 5%\n"
-                             "Todos os funcion·rios com pelo menos 3 anos de casa tambÈm ganham um bÙnus extra de 10%\n"
-                             "sobre o sal·rio-base.\n"
-                             "Ex: R$1000,00 e 4 anos de casa: bÙnus de R$120,00 (12%) mais R$100,00 (10%) =&gt;&gt; Total:\n"
+	char pergunta12[] = "2) Uma empresa vai pagar um b√¥nus de fim-de-ano aos seus funcion√°rios. Fa√ßa um programa C\n"
+                             "para ler o sal√°rio de um funcion√°rio (em reais) e seu tempo de trabalho na empresa (em anos), e\n"
+                             "depois imprimir este sal√°rio com um b√¥nus, de acordo com os crit√©rios abaixo:\n"
+                             "Para sal√°rios at√© R$500,00 inclusive - b√¥nus de 15%\n"
+                             "Para sal√°rios entre R$500,00 e R$1000,00 inclusive - b√¥nus de 12%\n"
+                             "Para sal√°rios acima de R$1000,00 - b√¥nus de 5%\n"
+                             "Todos os funcion√°rios com pelo menos 3 anos de casa tamb√©m ganham um b√¥nus extra de 10%\n"
+                             "sobre o sal√°rio-base.\n"
+                             "Ex: R$1000,00 e 4 anos de casa: b√¥nus de R$120,00 (12%) mais R$100,00 (10%) =&gt;&gt; Total:\n"
                              "R$1220,00\n";
 	char pergunta13[] = "3) Escreva um programa C para ler as coordenadas (X,Y) de um ponto no plano cartesiano e\n"
-                         "escrever o quadrante ao qual o ponto pertence. Caso o ponto n„o pertenÁa a nenhum quadrante,\n"
-                         "escrever se ele est· sobre o eixo X, eixo Y ou na origem. Considere que o usu·rio poder· informar\n"
+                         "escrever o quadrante ao qual o ponto pertence. Caso o ponto n√£o perten√ßa a nenhum quadrante,\n"
+                         "escrever se ele est√° sobre o eixo X, eixo Y ou na origem. Considere que o usu√°rio poder√° informar\n"
                          "qualquer valor real para as coordenadas\n";
 	char pergunta14[] = "4) Escreva um programa C que leia a idade de 2 homens e 2 mulheres (considere que a idade dos\n"
-                            "homens ser· sempre diferente, assim como das mulheres). Calcule e escreva a soma das idades\n"
+                            "homens ser√° sempre diferente, assim como das mulheres). Calcule e escreva a soma das idades\n"
                             "do homem mais velho com a mulher mais nova.\n";
-	char pergunta15[] = "5) Para participar da categoria OURO do 1 ∫ Campeonato Mundial de Bolinha de Gude o jogador\n"
+	char pergunta15[] = "5) Para participar da categoria OURO do 1 ¬∫ Campeonato Mundial de Bolinha de Gude o jogador\n"
                             "deve pesar entre 70 Kg (inclusive) e 80 Kg (inclusive) e medir de 1,75 m (inclusive) a 1,90 m\n"
                             "(inclusive). Escreva um programa C para ler a altura e o peso de um jogador e determine se o\n"
-                            "jogador est· apto a participar do campeonato, escrevendo uma das seguintes mensagens\n"
-                            "conforme cada situaÁ„o:\n";
-	char pergunta16[] = "1) FaÁa um programa C para imprimir os dez primeiros n˙meros inteiros positivos. (1, 2, 3, 4, ... ,\n"
+                            "jogador est√° apto a participar do campeonato, escrevendo uma das seguintes mensagens\n"
+                            "conforme cada situa√ß√£o:\n";
+	char pergunta16[] = "1) Fa√ßa um programa C para imprimir os dez primeiros n√∫meros inteiros positivos. (1, 2, 3, 4, ... ,\n"
                         "10)\n";
-	char pergunta17[] = "2) FaÁa um programa C para imprimir os quadrados de 1 ‡ 5.";
-	char pergunta18[] = "3) FaÁa um programa C para imprimir a soma dos dez primeiros n˙meros inteiros positivos. (1 + 2\n"
+	char pergunta17[] = "2) Fa√ßa um programa C para imprimir os quadrados de 1 √† 5.";
+	char pergunta18[] = "3) Fa√ßa um programa C para imprimir a soma dos dez primeiros n√∫meros inteiros positivos. (1 + 2\n"
                         "+ 3 + ... + 10)";
-	char pergunta19[] = "4) FaÁa um programa C para exibir a soma dos n˙meros divisÌveis por 7 entre 2 e 300\n.";
-	char pergunta20[] = "5) FaÁa um programa C para ler 30 n˙meros inteiros e imprimir a soma dos n˙meros que s„o\n"
-                        "Ìmpares.\n";
-	char pergunta21[] = "1 ñ FaÁa um programa que leia 2 vetores de 10 elementos e os imprima na tela, um de cada vez.";
-	char pergunta22[] = "2 -  Leia uma sequÍncia de 10 n˙meros e imprima na ordem inversa ‡ da leitura. OBS: Lembre-se de comeÁar\n"
-	                    "o laÁo de repetiÁ„o pela ˙ltima posiÁ„o do vetor.\n";
-	char pergunta23[] = "3 ñ Leia um vetor de n n˙meros inteiros (o usu·rio precisa digitar o valor de n), imprima o vetor na ordem inversa.";
-	char pergunta24[] = "4 - FaÁa um Programa que peÁa a idade e a altura de 5 pessoas, armazene cada informaÁ„o no seu respectivo vetor,\n"
+	char pergunta19[] = "4) Fa√ßa um programa C para exibir a soma dos n√∫meros divis√≠veis por 7 entre 2 e 300\n.";
+	char pergunta20[] = "5) Fa√ßa um programa C para ler 30 n√∫meros inteiros e imprimir a soma dos n√∫meros que s√£o\n"
+                        "√≠mpares.\n";
+	char pergunta21[] = "1 ‚Äì Fa√ßa um programa que leia 2 vetores de 10 elementos e os imprima na tela, um de cada vez.";
+	char pergunta22[] = "2 -  Leia uma sequ√™ncia de 10 n√∫meros e imprima na ordem inversa √† da leitura. OBS: Lembre-se de come√ßar\n"
+	                    "o la√ßo de repeti√ß√£o pela √∫ltima posi√ß√£o do vetor.\n";
+	char pergunta23[] = "3 ‚Äì Leia um vetor de n n√∫meros inteiros (o usu√°rio precisa digitar o valor de n), imprima o vetor na ordem inversa.";
+	char pergunta24[] = "4 - Fa√ßa um Programa que pe√ßa a idade e a altura de 5 pessoas, armazene cada informa√ß√£o no seu respectivo vetor,\n"
 	                    "ou seja, um vetor para IDADE e um vetor para ALTURA. Imprima a idade e a altura de cada pessoa.\n";
-	char pergunta25[] = "5 - FaÁa um programa que leia 2 vetores de n˙meros reais de 5 elementos, some todos os seus elementos e mostre em um\n"
+	char pergunta25[] = "5 - Fa√ßa um programa que leia 2 vetores de n√∫meros reais de 5 elementos, some todos os seus elementos e mostre em um\n"
 	                    "vetor resultante, denominado VETOR SOMA.\n";
 	pergunta[0][0] = pergunta1;
 	pergunta[0][1] = pergunta2;
@@ -96,7 +96,7 @@ int main()
 #include<stdlib.h>\n\
 #include<locale.h>\n\
 \n\
-\int main()\n\
+int main()\n\
 {\n\
 	setlocale(LC_ALL, \"Portuguese\");\n\
 	\n\
@@ -109,7 +109,7 @@ int main()
 	\n\
 	res = i + j;\n\
 	\n\
-	printf(\"A soma de %d + %d È %d\", i, j, res);\n\
+	printf(\"A soma de %d + %d √© %d\", i, j, res);\n\
 }\n";
     char resposta2[] = "\n\
 #include<stdio.h>\n\
@@ -117,7 +117,7 @@ int main()
 #include<stdlib.h>\n\
 #include<locale.h>\n\
 \n\
-\int main()\n\
+int main()\n\
 {\n\
 	setlocale(LC_ALL, \"Portuguese\");\n\
 	\n\
@@ -130,7 +130,7 @@ int main()
 	\n\
 	res = i * j;\n\
 	\n\
-	printf(\"A multiplicaÁ„o de %d + %d È %d\", i, j, res);\n\
+	printf(\"A multiplica√ß√£o de %d + %d √© %d\", i, j, res);\n\
 }\n";
     char resposta3[] = "\n\
 #include<stdio.h>\n\
@@ -138,7 +138,7 @@ int main()
 #include<stdlib.h>\n\
 #include<locale.h>\n\
 \n\
-\int main()\n\
+int main()\n\
 {\n\
 	setlocale(LC_ALL, \"Portuguese\");\n\
 	\n\
@@ -153,7 +153,7 @@ int main()
 	\n\
 	res = i + j + f;\n\
 	\n\
-	printf(\"A soma de %d + %d + %d È %d\", i, j, f, res);\n\
+	printf(\"A soma de %d + %d + %d √© %d\", i, j, f, res);\n\
 }\n";
     char resposta4[] = "\n\
 #include<stdio.h>\n\
@@ -161,7 +161,7 @@ int main()
 #include<stdlib.h>\n\
 #include<locale.h>\n\
 \n\
-\int main()\n\
+int main()\n\
 {\n\
 	setlocale(LC_ALL, \"Portuguese\");\n\
 	\n\
@@ -172,7 +172,7 @@ int main()
 	\n\
 	res = i * 1000;\n\
 	\n\
-	printf(\"%d em gramas È %d\", i, res);\n\
+	printf(\"%d em gramas √© %d\", i, res);\n\
 }\n";
     char resposta5[] = "\n\
 #include<stdio.h>\n\
@@ -180,7 +180,7 @@ int main()
 #include<stdlib.h>\n\
 #include<locale.h>\n\
 \n\
-\int main()\n\
+int main()\n\
 {\n\
 	setlocale(LC_ALL, \"Portuguese\");\n\
 	\n\
@@ -191,7 +191,7 @@ int main()
 	\n\
 	res = i * i;\n\
 	\n\
-	printf(\"O quadrado de %d È %d\", i, res);\n\
+	printf(\"O quadrado de %d √© %d\", i, res);\n\
 }\n";
     char resposta6[] = "\n\
 #include<stdio.h>\n\
@@ -199,12 +199,12 @@ int main()
 #include<stdlib.h>\n\
 #include<locale.h>\n\
 \n\
-\int main()\n\
+int main()\n\
 {\n\
     setlocale(LC_ALL, \"Portuguese\");\n\
     \n\
 	float i, j, k;\n\
-	printf(Digite a dist‚ncia de viagem(em Km): e o tempo(em horas): );\n\
+	printf(Digite a dist√¢ncia de viagem(em Km): e o tempo(em horas): );\n\
 	scanf(%f, &i);\n\
 	printf(\"Digite o tempo(em horas): \")\n\
 	scanf(%f, &j);\n\
@@ -217,7 +217,7 @@ int main()
 	}\n\
 	else\n\
 	{\n\
-		printf(Sua velocidade n„o foi superior a 80km/h);\n\
+		printf(Sua velocidade n√£o foi superior a 80km/h);\n\
 	}\n\
 }\n";
     char resposta7[] = "\n\
@@ -233,7 +233,7 @@ int main()\n\
 	}\n\
 	else\n\
 	{\n\
-		printf(\"Voce n„o esta com febre!\");\n\
+		printf(\"Voce n√£o esta com febre!\");\n\
 	}\n\
 }\n";
     char resposta8[] = "\n\
@@ -254,11 +254,11 @@ int main()\n\
 	\n\
 	if(res==0)\n\
 	{\n\
-		printf(\"Esse numero È par\");\n\
+		printf(\"Esse numero √© par\");\n\
 	}\n\
 	else\n\
 	{\n\
-		printf(\"Esse numnero È Ìmpar\");\n\
+		printf(\"Esse numnero √© √≠mpar\");\n\
 	}\n\
 }\n";
     char resposta9[] = "\n\
@@ -781,7 +781,7 @@ int main ()\n\
 	{
 		//entrada de dados - lista
 	INICIO:
-	printf("Digite a lista quem vocÍ quer:\n1-Algoritimos Basicos.\n2-Decis„o.\n3-Decis„o Desafios.\n4-RepetiÁ„o.\n5-Vetores.\n7-Fechar\n");
+	printf("Digite a lista quem voc√™ quer:\n1-Algoritimos Basicos.\n2-Decis√£o.\n3-Decis√£o Desafios.\n4-Repeti√ß√£o.\n5-Vetores.\n7-Fechar\n");
 	scanf("%d", &i);
 	if(i==7)
 	{
@@ -790,7 +790,7 @@ int main ()\n\
 	system("cls");
 	//entrada de dados - exercicio
 	EXERCICIO:
-    printf("Digite o exercicio quem vocÍ quer: \n");
+    printf("Digite o exercicio quem voc√™ quer: \n");
 	scanf("%d", &j);
 	if(j==7)
 	{
@@ -814,7 +814,7 @@ int main ()\n\
 	
 	//entrada de dados - resposta
 	printf("%s\n", pergunta[i][j]);
-	printf("\nVocÍ quer a resposta(1 para sim e 2 para n„o)?\n6-Voltar\n7-Fechar\n");
+	printf("\nVoc√™ quer a resposta(1 para sim e 2 para n√£o)?\n6-Voltar\n7-Fechar\n");
 	scanf("%d", &a);
 	system("cls");
 	if(i==7)
